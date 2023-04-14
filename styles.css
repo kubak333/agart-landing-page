@@ -159,6 +159,40 @@ body.open .navbar-menu {
     border-radius: 7.5%;
   }
 
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item::after {
+  content: "Sklep wielobranżowy";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-item:hover::after {
+  opacity: 1;
+}
+
+.gallery-item:hover img {
+  filter: brightness(75%);
+}
+
+.gallery-item img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 7.5%;
+  transition: filter 0.3s ease-in-out;
+}
 
 /* FIRST SECTION */
 
