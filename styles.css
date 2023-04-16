@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    
 }
 
 body {
@@ -29,21 +30,10 @@ button:hover {
   cursor: pointer;
 }
 
-button,a:visited {
+a:visited, a:link {
   color: white;
-
-}
-
-button,a:before {
-  color: white;
-
-}
-
-button,a:link {
   text-decoration: none;
 }
-
-
 .navbar {
     position: fixed;
     z-index: 1;
@@ -242,13 +232,13 @@ body.open .navbar-menu {
 .about-us {
     display: flex;
     justify-content: space-around;
-    margin: 100px 75px 0px;
+    margin: 30px 75px 0px;
     flex-wrap: wrap;
   }
 
   h2 {
     padding-top: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     font-size: 40px;
   }
 
@@ -265,6 +255,10 @@ body.open .navbar-menu {
     padding-top: 100px;
     padding-bottom: 70px;
     font-size: 18px;
+  }
+
+  .open-hours {
+    margin-bottom: 15px;
   }
   
   @media (max-width: 1041px) {
