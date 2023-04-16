@@ -34,6 +34,11 @@ button,a:visited {
 
 }
 
+button,a:before {
+  color: white;
+
+}
+
 button,a:link {
   text-decoration: none;
 }
