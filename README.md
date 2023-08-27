@@ -35,7 +35,7 @@ Jeśli masz pytania lub uwagi dotyczące tego projektu, możesz skontaktować si
 ----
 
 # Agart Stara Błotnica - website
-***For english see below***.
+
 
 Welcome to the repository of the Agart Stara Błotnica store website project. This website was created for training purposes and serves to demonstrate knowledge of HTML, CSS and the principles of responsiveness, semantic and accessibility. 
 
