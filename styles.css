@@ -230,7 +230,7 @@ h2 {
     
   }
   
-  .gallery-item {
+.gallery-item {
     position: relative;
     overflow: hidden;
 }
@@ -251,7 +251,6 @@ h2 {
 }
 
 .gallery-item::after {
-  content: "Sklep wielobranżowy";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -272,6 +271,13 @@ h2 {
   filter: brightness(75%);
 }
 
+.spozywczy::after {
+  content: "Sklep spożywczy";
+}
+
+.wielobranzowy::after {
+  content: "Sklep wielobranżowy";
+}
 
 /* CONTACT SECTION */
 
@@ -282,6 +288,12 @@ h2 {
     justify-content: space-around;
     flex-wrap: wrap;
   }
+
+  #mail {  
+    color: black;
+    text-decoration: none;
+  }
+  
 
 
   .contact-item {
