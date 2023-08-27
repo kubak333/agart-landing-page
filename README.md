@@ -25,7 +25,7 @@ Web browser (latest versions recommended)
 No installation is required as this is a simple project based on static HTML, CSS and image files. Just open the index.html file in your browser.
 
 ## Preview
-Preview of the page is available [at this link](kubak333.github.io/agart-landing-page)
+Preview of the page is available at: kubak333.github.io/agart-landing-page
 
 ## Contact Us
 If you have questions or comments about this project, you can contact me by email: kubak333@gmail.com
@@ -60,7 +60,7 @@ Przeglądarka internetowa (najnowsze wersje zalecane)
 Nie jest wymagana instalacja, ponieważ jest to prosty projekt oparty na statycznych plikach HTML, CSS i obrazach. Wystarczy otworzyć plik index.html w przeglądarce.
 
 ## Podgląd
-Podgląd strony jest dostępny [pod tym linkiem](kubak333.github.io/agart-landing-page)
+Podgląd strony jest dostępny tutaj: kubak333.github.io/agart-landing-page
 
 ## Kontakt
 Jeśli masz pytania lub uwagi dotyczące tego projektu, możesz skontaktować się ze mną pod adresem email: kubak333@gmail.com
